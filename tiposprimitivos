@@ -1,0 +1,25 @@
+void main() {
+  String nome = 'Adrian';
+  String generoFavoritoJogo = 'RPG';
+  String jogoFavorito = 'Elden ring';
+  String pcOUconsole = 'Pc';
+  
+  print("meu nome é ${nome} meu genero de jogo favorito é ${generoFavoritoJogo}, meu jogo favorito é ${jogoFavorito} e jogo no ${pcOUconsole}");
+
+  
+  /*int nota1 = 8;
+  int nota2 = 6;
+  double media = ((nota1 + nota2) / 2);
+  print('media foi ${media.toStringAsFixed(2)}');*/
+  
+  
+  String nome2 = 'juao';
+  double altura = 1.80;
+  double peso = 80;
+  double media = (peso / (altura * altura));
+  
+  print('a ${nome2} tem o imc de ${media.toStringAsFixed(2)}');
+  
+  
+  }
+
